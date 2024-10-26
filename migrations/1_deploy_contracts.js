@@ -3,9 +3,9 @@ const Vesting = artifacts.require("Vesting");
 const Staking = artifacts.require("Staking");
 
 module.exports = async function (deployer, network, accounts) {
-  const initialOwner = "0x6368f0267b916CC578657D6C897F49426bbBd6E7"; // Replace with actual owner address
-  const devWallet = "0xFe43eB48bfD905F4768cDAc18B7d0c6c6AD6240D"; // Replace with your dev wallet address
-  const vestingVault = "0xC1cFb417F1D2059229eDE032b24A066d4761eB01"; // Replace with vesting vault address
+  const initialOwner = ""; 
+  const devWallet = ""; 
+  const vestingVault = "; 
 
   // Deploy the SmokieJoe contract
   console.log("Deploying SmokieJoe...");
